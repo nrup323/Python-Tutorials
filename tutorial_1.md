@@ -1,13 +1,13 @@
 # Difference Between *, .mul, .matmul, .prod, .dot
 
-This was the most confusing part for whilea learning various python libraries and their tools.
-When to use above other operations had always been puzzling for me.
-In this tutorial I have tried to exaplain what all above expressions do and when should we use them.
+This was the most confusing part for me while learning various python libraries.
+When to use above operations had always been puzzling for me.
+In this tutorial I have tried to exaplain 
+what they do and when to use them.
 
 ### 1) * and .mul
 
-If two tensors have same size then operation by default are applied element wise. The use of  * and lib.mul gives us the element wise multiplication of two
-tensors.
+If two tensors have same size then operation(+ , - , *, /) by default are applied element wise. The use of  * and lib.mul gives us the element wise multiplication of two tensors.
 Now basically whenever we use arrays from Numpy or tensors for Tensorflow/Pytorch use of  * is same as using lib.mul
 ![image](https://user-images.githubusercontent.com/47531228/127900228-37661fc6-8c84-408f-a002-c3130e2da37d.png)
 
